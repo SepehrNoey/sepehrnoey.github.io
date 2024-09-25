@@ -107,47 +107,51 @@ h4, h5, h6 {
 #projects .panel-heading {
   padding: 0;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-position: top left;
   width: 100%;
   min-height: 200px;
+  object-fit: cover;
+  
 }
 
-#projects .panel-heading.proj-1 {
-  background-image: url(https://unsplash.it/300/200);
+.panel {
+  position: relative;
+  cursor: pointer;
 }
-#projects .panel-heading.proj-2 {
-  background-image: url(https://unsplash.it/300/200);
+
+.panel-heading {
+  height: 300px; /* Adjust this to control image size */
+  background-color: lightgray; /* Use an image or background color here */
 }
-#projects .panel-heading.proj-3 {
-  background-image: url(https://unsplash.it/300/200);
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+  opacity: 0; /* Initially hidden */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
 }
-#projects .panel-heading.proj-4 {
-  background-image: url(https://unsplash.it/300/200);
+
+.overlay:hover {
+  opacity: 1; /* Show on hover */
 }
-#projects .panel-heading.proj-5 {
-  background-image: url(https://unsplash.it/300/200);
+
+.description {
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
-#projects .panel-heading.proj-6 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-7 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-8 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-9 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-10 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-11 {
-  background-image: url(https://unsplash.it/300/200);
-}
-#projects .panel-heading.proj-12 {
-  background-image: url(https://unsplash.it/300/200);
+
+.col-md-6 {
+  margin-bottom: 20px; /* Space between project panels */
 }
 
 p, table, tr, td, ul, li, blockquote, nav, a, footer, dl, dt, dd {

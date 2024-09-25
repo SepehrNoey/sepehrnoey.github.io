@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name Here</title>
+  <title>Sepehr Noey</title>
 
   <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -18,10 +18,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/icons8-favicon-100.png">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -57,6 +54,15 @@
     .panel-title {
       font-weight: bold !important;
     }
+
+    #projects h3:after {
+      content: none;
+    }
+
+    #projects h4{
+      color: slategray !important;
+      text-transform: none !important;
+    }
   </style>
 
 </head>
@@ -73,13 +79,8 @@
 
     <div class="row">
       <div class="col-sm-12">
-        <h1>Projects</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas fugiat repellendus ex adipisci! Consectetur dolorem facere perferendis placeat repellat aspernatur odio, explicabo, ab quaerat non saepe reprehenderit tempore,
-          architecto neque eum quis culpa vel numquam voluptas dolores. Cumque similique vel culpa alias vero optio iusto, nisi deserunt officiis, perferendis, magni illum ad iure commodi magnam labore soluta atque. Exercitationem esse provident
-          dolorum non vero incidunt nisi cum est dolorem quis accusamus, nemo autem vel labore adipisci voluptatum, repudiandae maxime at ratione ab dolore quam ducimus. Cupiditate.</p>
-
+        <h1>Projects</h1> 
       </div>
-
     </div>
 
     <div class="row push-down-2" id="projects">
@@ -87,122 +88,195 @@
     <!-- If you don't want the cards to be links, simply remove the {data-url='some link'} attribute -->
 
 
-        <div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
+        <!-- <div class="col-sm-6 col-md-4">
+      		<div class="panel panel-default pointer" data-url="landscape-image-generation.html">
       			<div class="panel-heading proj-1">
       			</div>
       			<div class="panel-body">
-              <h5>Project 1</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
+              <h5>Landscape Generation with Diffusion Models</h5>
+              <p>Implemented the DDPM diffusion model for landscape image generation.</p></div>
       		</div>
-      	</div>
+      	</div> -->
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-2">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 2</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <!-- B.Sc. Project, Special Focus -->
+        <div class="col-sm-12">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/b101c727-6cbe-4d34-80ef-eb4d06511ccd" alt="Thesis Project Image">
+            </div>
+            <div class="overlay">
+              <div class="description">
+                <h4>B.Sc. Thesis Project: Image Editing System Using Generative Text-to-Image Diffusion Models</h4>
+                <p>In this project, we employ several generative text-to-image diffusion models for a range of image editing tasks, such as object addition/removal,
+                   inpainting/outpainting, background replacement, style transfer, and text modification. Our work primarily utilizes models and techniques presented
+                    in papers like <a href="https://arxiv.org/abs/2312.03594">PowerPaint</a>, <a href="https://arxiv.org/abs/2211.09800">InstructPix2Pix</a>,
+                     <a href="https://arxiv.org/abs/2210.09276">Imagic</a>, and <a href="https://arxiv.org/abs/2403.18818">ObjectDrop</a>, testing their capabilities
+                      across various editing tasks on custom datasets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-3">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 3</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
-        <div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-4">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 4</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/28e51d78-4c42-49d5-beac-9a598a3c1070" alt="Landscape Image Generation Gif">
+            </div>
+            <a href="https://github.com/SepehrNoey/Landscape-Image-Generation-Using-Diffusion-Models">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Landscape Image Generation Using Diffusion Models</h4>
+                  <p>Implemented the first Diffusion Model proposed in the DDPM paper from scratch for landscape image generation of size 32*32.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-5">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 5</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/24d41766-9fbd-40ba-9c55-5b1d0002af79" alt="Vision Transformer Architecture Image">
+            </div>
+            <a href="https://github.com/SepehrNoey/Image-Captioning-Using-Vision-Transformers">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Image Captioning Using Vision Transformers</h4>
+                  <p>Implemented a Vision Encoder and Text Decoder from scratch to extract image patches and process them through transformer layers for caption generation.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-6">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 6</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
-        <div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-7">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 7</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/ded13f4b-4706-4ec3-b088-20044128543b" alt="Object Detection Gif">
+            </div>
+            <a href="https://github.com/SepehrNoey/Fine-Tuning-YOLOv8n-for-Enhanced-Detection">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Fine-Tuning YOLOv8 for Enhanced Detection in Crowded Scenes</h4>
+                  <p>Fine-tuned YOLOv8 model on custom dataset made manually of crowded scenes for more accurate object detection and counting.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-8">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 8</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/b57a2152-04df-438c-b4a0-e247c361918d" alt="LIME and SHAP Image">
+            </div>
+            <a href="https://github.com/SepehrNoey/Explaining-ResNet50-Predictions-with-LIME-and-SHAP">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Explaining ResNet-50 Predictions with LIME and SHAP</h4>
+                  <p>Applied LIME and SHAP to analyze and explain the predictions of a ResNet-50 model in image classification tasks.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-9">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 9</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
-        <div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-10">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 10</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/63d8a024-8d47-42f0-9523-894983d77332" alt="Retian Blood Vessels Segmentation Result">
+            </div>
+            <a href="https://github.com/SepehrNoey/Retina-Blood-Vessels-Segmentation-Using-Unet">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Retinal Vessel Segmentation via U-Net</h4>
+                  <p>Implemented a U-Net model from scratch and trained it on augmented DRIVE and HRF datasets to segment retina blood vessels.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-11">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 11</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/4deabe5e-d3cf-4122-9534-6b16f70e3df5" alt="Neural Networks Framework Implementation">
+            </div>
+            <a href="https://github.com/SepehrNoey/Neural-Networks-Framework-from-Scratch">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Designing a Framework for Neural Network Training</h4>
+                  <p>Implemented a framework from scratch for training neural networks and used it to train a model on the MNIST handwritten digit recognition task.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-      	<div class="col-sm-6 col-md-4">
-      		<div class="panel panel-default pointer" data-url="https://google.com">
-      			<div class="panel-heading proj-12">
-      			</div>
-      			<div class="panel-body">
-              <h5>Project 12</h5>
-              <p>Description of project hereLorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex sed illo, fugit?</p></div>
-      		</div>
-      	</div>
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/a9325ba7-931b-4fd9-be62-a5f2661fe2f9" alt="Pacman Demo">
+            </div>
+            <a href="https://github.com/SepehrNoey/Artificial-Intelligence-Course-Projects">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Artificial Intelligence Course Projects</h4>
+                  <p>The course projects of Artificial Intelligence at the University of California, Berkeley where implemented classic AI algorithms and Reinforcement Learning techniques.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/3cf92c02-5597-4171-b6eb-b31b935f4149" alt="KNN Image">
+            </div>
+            <a href="https://github.com/SepehrNoey/Data-Mining">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Data Mining Course Projects</h4>
+                  <p>Utilized various Machine Learning algorithms like XGBoost, SVM, KNN, Logistic Regression, Decision Trees, KNN, K-Means and much more for tasks including regression, classification, and clustering.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/b66adfb2-2cf4-4610-b401-9c20d2cefaf5" alt="Information Retrieval Image">
+            </div>
+            <a href="https://github.com/SepehrNoey/Information-Retrieval">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Information Retrieval</h4>
+                  <p>Implemented a search engine to retrieve related documents from a set of Persian news. Involved concepts like index construction, TF-IDF and Cosine scoring, and Champion List construction.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-6">
+          <div class="panel panel-default pointer">
+            <div class="panel-heading">
+              <img class="panel-heading" src="https://github.com/user-attachments/assets/067406ee-2e48-46ee-a50c-2f12cb1fdc53" alt="Transformer Architecture">
+            </div>
+            <a href="https://github.com/SepehrNoey/Persian-Grammatical-Error-Correction">
+              <div class="overlay">
+                <div class="description">
+                  <h4>Persian Grammar Error Correction</h4>
+                  <p>The project of NLP internship at SLPL, Sharif University of Technology, in which utilized transformer-based models to correct grammar and spelling errors in Persian texts.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
       </div>
       <!-- row -->
